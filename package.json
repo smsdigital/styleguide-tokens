@@ -1,0 +1,23 @@
+{
+  "name": "styleguide-variables",
+  "version": "0.0.1",
+  "description": "If you have questions about this repository, please ask the CoE-WebDev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smsdigital/styleguide-variables.git"
+  },
+  "keywords": [
+    "styleguide",
+    "variables"
+  ],
+  "author": "SMS Digital (Martin Hombach)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smsdigital/styleguide-variables/issues"
+  },
+  "homepage": "https://github.com/smsdigital/styleguide-variables#readme"
+}
