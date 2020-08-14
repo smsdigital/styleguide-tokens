@@ -1,15 +1,122 @@
 {
-    "single-values": {
-
-        "font-size-small": "12px",
-        "font-size-medium": "16px",
-        "font-size-large": "22px",
-    
-        "font-color-primary": "blue",
-        "font-color-secondary": "purple",
-    
-        "space-small": "2px",
-        "space-medium": "4px",
-        "space-large": "12px"
-    }
+	"global": {
+		"cyan10": "rgb(229, 246, 255)",
+		"cyan20": "rgb(186, 230, 255)",
+		"cyan40": "rgb(51, 177, 255)",
+		"cyan50": "rgb(17, 146, 232)",
+		"cyan60": "rgb(0, 117, 190)",
+		"cyan60-hover": "rgb(2, 111, 165)",
+		"cyan70": "rgb(0, 83, 154)",
+		"cyan80": "rgb(0, 58, 109)",
+		"cyan90": "rgb(1, 39, 73)",
+​
+		"gray10": "rgb(244, 244, 244)",
+		"gray10-hover": "rgb(229, 229, 229)",
+		"gray20": "rgb(224, 224, 224)",
+		"gray20-hover": "rgb(202, 202, 202)",
+		"gray30": "rgb(198, 198, 198)",
+		"gray40": "rgb(168, 168, 168)",
+		"gray50": "rgb(141, 141, 141)",
+		"gray60": "rgb(111, 111, 111)",
+		"gray60-hover": "rgb(96, 96, 96)",
+		"gray70": "rgb(82, 82, 82)",
+		"gray70-hover": "rgb(101, 101, 101)",
+		"gray80": "rgb(57, 57, 57)",
+		"gray80-hover": "rgb(76, 76, 76)",
+		"gray90": "rgb(38, 38, 38)",
+		"gray90-hover": "rgb(53, 53, 53)",
+		"gray100": "rgb(22, 22, 22)",
+		"gray100-opacity50": "rgba(22, 22, 22, 0.5)",
+		"gray100-opacity70": "rgba(22, 22, 22, 0.7)",
+		
+		"green40": "rgb(66, 190, 101)",
+		"green50": "rgb(36, 161, 72)",
+		
+		"purple40": "rgb(190, 149, 255)",
+		"purple60": "rgb(138, 63, 252)",
+		
+		"red50": "rgb(250, 77, 86)",
+		"red60": "rgb(227, 0, 15)",
+		"red60-hover": "rgb(186, 27, 35)",
+		"red80": "rgb(117, 14, 19)",
+​
+		"white": "rgb(255, 255, 255)",
+				
+		"yellow30": "rgb(241, 194, 27)",
+		"yellow40": "rgb(190, 149, 255)"
+	},
+	"theme-white": {
+		"ui-background": "$white",
+		"ui-01": "$gray10",
+		"ui-02": "$white",
+		"ui-03": "$gray20",
+		"ui-04": "$gray50",
+		"ui-05": "$gray100",
+		"overlay-01": "$gray100-opacity50",
+		
+		"interactive-01": "$cyan60",
+		"interactive-02": "$gray80",
+		"interactive-03": "$cyan60",
+		"interactive-04": "$cyan60",
+		
+		"text-01": "$gray100",
+		"text-02": "$gray80",
+		"text-03": "$gray40",
+		"text-04": "$white",
+		"text-05": "$gray60",
+		"link-01": "$cyan60",
+		
+		"icon-01": "$gray100",
+		"icon-02": "$gray70",
+		"icon-03": "$white",
+		
+		"field-01": "$gray10",
+		"field-02": "$white",
+		
+		"inverse-01": "$white",
+		"inverse-02": "$gray80",
+		"inverse-03": "$cyan40",
+		
+		"support-01": "$red60",
+		"support-02": "$green50",
+		"support-03": "$yellow30",
+		"support-04": "$cyan70",
+		"inverse-support-01": "$red50",
+		"inverse-support-02": "$green40",
+		"inverse-support-03": "$yellow30",
+		"inverse-support-04": "$cyan50",
+		"danger": "$red60",
+		
+		"focus": "$cyan60",
+		"inverse-focus-ui": "$white",
+		
+		"hover-primary": "$cyan70",
+		"hover-primary-text": "$cyan80",
+		"hover-secondary": "$gray80-hover",
+		"hover-tertiary": "$cyan60hover",
+		"hover-ui": "$gray10-hover",
+		"hover-row": "$gray10-hover",
+		"hover-danger": "$red60-hover",
+		"hover-selected-ui": "$gray20-hover",
+		"inverse-hover-ui": "$gray80-hover",
+		
+		"active-primary": "$cyan80",
+		"active-secondary": "$cyan60",
+		"active-tertiary": "$cyan80",
+		"active-ui": "$cyan30",
+		"active-danger": "$red80",
+		
+		"selected-ui": "$gray20",
+		
+		"highlight": "$cyan20",
+		
+		"visited-link": "$purple60",
+		
+		"disabled-01": "$gray10",
+		"disabled-02": "$gray30",
+		"disabled-03": "$gray50",
+		
+		"skeleton-01": "$gray10-hover",
+		"skeleton-02": "$gray30"
+	}
 }
