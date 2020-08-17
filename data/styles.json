@@ -94,7 +94,7 @@
 			"hover-primary": "$cyan70",
 			"hover-primary-text": "$cyan80",
 			"hover-secondary": "$gray80-hover",
-			"hover-tertiary": "$cyan60hover",
+			"hover-tertiary": "$cyan60-hover",
 			"hover-ui": "$gray10-hover",
 			"hover-row": "$gray10-hover",
 			"hover-danger": "$red60-hover",
