@@ -256,7 +256,7 @@
 			"active-ui": "$gray60",
 			"active-danger": "$red80",
 			
-			"selected-ui": "$gary70",
+			"selected-ui": "$gray70",
 			
 			"highlight": "$cyan80",
 			
@@ -298,7 +298,7 @@
 			"field-01": "$gray90",
 			"field-02": "$gray80",
 			
-			"inverse-01": "$gary100",
+			"inverse-01": "$gray100",
 			"inverse-02": "$gray10",
 			"inverse-03": "$cyan60",
 			
