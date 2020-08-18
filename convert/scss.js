@@ -27,15 +27,15 @@ function createGlobals(data) {
 }
 
 function createThemes(data) {
-    let themes = EOL;
+    let themes = `${EOL}$themes: (${EOL}`;
     for (const theme in data.themes) {
-        themes += `// Theme: ${theme}${EOL}`;
-        themes += `$theme-${theme}: (${EOL}`;
+        themes += `${TAB}"${theme}" (${EOL}`;
         for (const key in data.themes[theme]) {
             let value = data.themes[theme][key];
-            themes += `${TAB}${key}: ${value},${EOL}`;
+            themes += `${TAB}${TAB}"${key}": ${value},${EOL}`;
         }
-        themes += `)${EOL}`;
+        themes += `${TAB}),${EOL}`;
     }
+    themes += `);${EOL}`;
     return themes;
 }
