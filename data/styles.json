@@ -120,6 +120,230 @@
 			
 			"skeleton-01": "$gray10-hover",
 			"skeleton-02": "$gray30"
+		},
+		"gray10": {
+			"ui-background": "$gray10",
+			"ui-01": "$white",
+			"ui-02": "$gray10",
+			"ui-03": "$gray20",
+			"ui-04": "$gray50",
+			"ui-05": "$gray100",
+			"overlay-01": "$gray100-opacity50",
+			
+			"interactive-01": "$cyan60",
+			"interactive-02": "$gray80",
+			"interactive-03": "$cyan60",
+			"interactive-04": "$cyan60",
+			
+			"text-01": "$gray100",
+			"text-02": "$gray80",
+			"text-03": "$gray40",
+			"text-04": "$white",
+			"text-05": "$gray60",
+			"link-01": "$cyan60",
+			
+			"icon-01": "$gray100",
+			"icon-02": "$gray70",
+			"icon-03": "$white",
+			
+			"field-01": "$white",
+			"field-02": "$gray10",
+			
+			"inverse-01": "$white",
+			"inverse-02": "$gray80",
+			"inverse-03": "$cyan40",
+			
+			"support-01": "$red60",
+			"support-02": "$green50",
+			"support-03": "$yellow30",
+			"support-04": "$cyan70",
+			"inverse-support-01": "$red50",
+			"inverse-support-02": "$green50",
+			"inverse-support-03": "$yellow30",
+			"inverse-support-04": "$cyan50",
+			"danger": "$red60",
+			
+			"focus": "$cyan60",
+			"inverse-focus-ui": "$white",
+			
+			"hover-primary": "$cyan70",
+			"hover-primary-text": "$cyan80",
+			"hover-secondary": "$gray80-hover",
+			"hover-tertiary": "$cyan60-hover",
+			"hover-ui": "$gray10-hover",
+			"hover-row": "$gray10-hover",
+			"hover-danger": "$red60-hover",
+			"hover-selected-ui": "$gray20-hover",
+			"inverse-hover-ui": "$gray80-hover",
+			
+			"active-primary": "$cyan80",
+			"active-secondary": "$gray60",
+			"active-tertiary": "$cyan80",
+			"active-ui": "$gray30",
+			"active-danger": "$red80",
+			
+			"selected-ui": "$gray20",
+			
+			"highlight": "$cyan10",
+			
+			"visited-link": "$purple60",
+			
+			"disabled-01": "$white",
+			"disabled-02": "$gray30",
+			"disabled-03": "$gray50",
+			
+			"skeleton-01": "$gray10-hover",
+			"skeleton-02": "$gray30"
+		},
+		"gray90": {
+			"ui-background": "$gray90",
+			"ui-01": "$gray80",
+			"ui-02": "$gray70",
+			"ui-03": "$gray70",
+			"ui-04": "$gray60",
+			"ui-05": "$gray10",
+			"overlay-01": "$gray100-opacity70",
+			
+			"interactive-01": "$cyan60",
+			"interactive-02": "$gray60",
+			"interactive-03": "$white",
+			"interactive-04": "$cyan50",
+			
+			"text-01": "$gray10",
+			"text-02": "$gray30",
+			"text-03": "$gray60",
+			"text-04": "$white",
+			"text-05": "$gray50",
+			"link-01": "$cyan40",
+			
+			"icon-01": "$gray10",
+			"icon-02": "$gray30",
+			"icon-03": "$white",
+			
+			"field-01": "$gray80",
+			"field-02": "$gray70",
+			
+			"inverse-01": "$gray100",
+			"inverse-02": "$gray10",
+			"inverse-03": "$cyan60",
+			
+			"support-01": "$red50",
+			"support-02": "$green40",
+			"support-03": "$yellow30",
+			"support-04": "$cyan50",
+			"inverse-support-01": "$red60",
+			"inverse-support-02": "$green50",
+			"inverse-support-03": "$yellow30",
+			"inverse-support-04": "$cyan60",
+			"danger": "$red60",
+			
+			"focus": "$white",
+			"inverse-focus-ui": "$cyan60",
+			
+			"hover-primary": "$cyan70",
+			"hover-primary-text": "$cyan80",
+			"hover-secondary": "$gray60-hover",
+			"hover-tertiary": "$gray10",
+			"hover-ui": "$gray80-hover",
+			"hover-row": "$gray80-hover",
+			"hover-danger": "$red60-hover",
+			"hover-selected-ui": "$gray70-hover",
+			"inverse-hover-ui": "$gray10-hover",
+			
+			"active-primary": "$cyan80",
+			"active-secondary": "$gray80",
+			"active-tertiary": "$gray30",
+			"active-ui": "$gray60",
+			"active-danger": "$red80",
+			
+			"selected-ui": "$gary70",
+			
+			"highlight": "$cyan80",
+			
+			"visited-link": "$purple40",
+			
+			"disabled-01": "$gray90",
+			"disabled-02": "$gray80",
+			"disabled-03": "$gray60",
+			
+			"skeleton-01": "none",
+			"skeleton-02": "$gray80"
+
+		},
+		"gray100": {
+			"ui-background": "$gray100",
+			"ui-01": "$gray90",
+			"ui-02": "$gray80",
+			"ui-03": "$gray80",
+			"ui-04": "$gray60",
+			"ui-05": "$gray10",
+			"overlay-01": "$gray100-opacity70",
+			
+			"interactive-01": "$cyan60",
+			"interactive-02": "$gray60",
+			"interactive-03": "$white",
+			"interactive-04": "$cyan60",
+			
+			"text-01": "$gray10",
+			"text-02": "$gray30",
+			"text-03": "$gray60",
+			"text-04": "$white",
+			"text-05": "$gray50",
+			"link-01": "$cyan50",
+			
+			"icon-01": "$gray10",
+			"icon-02": "$gray30",
+			"icon-03": "$white",
+			
+			"field-01": "$gray90",
+			"field-02": "$gray80",
+			
+			"inverse-01": "$gary100",
+			"inverse-02": "$gray10",
+			"inverse-03": "$cyan60",
+			
+			"support-01": "$red50",
+			"support-02": "$green40",
+			"support-03": "$yellow30",
+			"support-04": "$cyan50",
+			"inverse-support-01": "$red60",
+			"inverse-support-02": "$green50",
+			"inverse-support-03": "$yellow30",
+			"inverse-support-04": "$cyan60",
+			"danger": "$red60",
+			
+			"focus": "$white",
+			"inverse-focus-ui": "$cyan60",
+			
+			"hover-primary": "$cyan70",
+			"hover-primary-text": "$cyan80",
+			"hover-secondary": "$gray60-hover",
+			"hover-tertiary": "$gray10",
+			"hover-ui": "$gray90-hover",
+			"hover-row": "$gray90-hover",
+			"hover-danger": "$red60-hover",
+			"hover-selected-ui": "$gray80-hover",
+			"inverse-hover-ui": "$gray10-hover",
+			
+			"active-primary": "$cyan80",
+			"active-secondary": "$gray80",
+			"active-tertiary": "$gray30",
+			"active-ui": "$gray70",
+			"active-danger": "$red80",
+			
+			"selected-ui": "$gray80",
+			
+			"highlight": "$cyan90",
+			
+			"visited-link": "$purple40",
+			
+			"disabled-01": "$gray90",
+			"disabled-02": "$gray80",
+			"disabled-03": "$gray60",
+			
+			"skeleton-01": "none",
+			"skeleton-02": "$gray80"
+	
 		}
 	}
 }

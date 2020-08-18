@@ -29,7 +29,7 @@ function createGlobals(data) {
 function createThemes(data) {
     let themes = `${EOL}$themes: (${EOL}`;
     for (const theme in data.themes) {
-        themes += `${TAB}"${theme}" (${EOL}`;
+        themes += `${TAB}"${theme}": (${EOL}`;
         for (const key in data.themes[theme]) {
             let value = data.themes[theme][key];
             themes += `${TAB}${TAB}"${key}": ${value},${EOL}`;
