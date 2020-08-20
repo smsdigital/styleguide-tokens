@@ -10,7 +10,6 @@
 		"cyan70": "rgb(0, 83, 154)",
 		"cyan80": "rgb(0, 58, 109)",
 		"cyan90": "rgb(1, 39, 73)",
-		
 		"gray10": "rgb(244, 244, 244)",
 		"gray10-hover": "rgb(229, 229, 229)",
 		"gray20": "rgb(224, 224, 224)",
@@ -29,20 +28,15 @@
 		"gray100": "rgb(22, 22, 22)",
 		"gray100-opacity50": "rgba(22, 22, 22, 0.5)",
 		"gray100-opacity70": "rgba(22, 22, 22, 0.7)",
-
 		"green40": "rgb(66, 190, 101)",
 		"green50": "rgb(36, 161, 72)",
-
 		"purple40": "rgb(190, 149, 255)",
 		"purple60": "rgb(138, 63, 252)",
-
 		"red50": "rgb(250, 77, 86)",
 		"red60": "rgb(227, 0, 15)",
 		"red60-hover": "rgb(186, 27, 35)",
 		"red80": "rgb(117, 14, 19)",
-
 		"white": "rgb(255, 255, 255)",
-
 		"yellow30": "rgb(241, 194, 27)",
 		"yellow40": "rgb(190, 149, 255)"
 	},
@@ -55,30 +49,24 @@
 			"ui-04": "$gray50",
 			"ui-05": "$gray100",
 			"overlay-01": "$gray100-opacity50",
-			
 			"interactive-01": "$cyan60",
 			"interactive-02": "$gray80",
 			"interactive-03": "$cyan60",
 			"interactive-04": "$cyan60",
-			
 			"text-01": "$gray100",
 			"text-02": "$gray80",
 			"text-03": "$gray40",
 			"text-04": "$white",
 			"text-05": "$gray60",
 			"link-01": "$cyan60",
-			
 			"icon-01": "$gray100",
 			"icon-02": "$gray70",
 			"icon-03": "$white",
-			
 			"field-01": "$gray10",
 			"field-02": "$white",
-			
 			"inverse-01": "$white",
 			"inverse-02": "$gray80",
 			"inverse-03": "$cyan40",
-			
 			"support-01": "$red60",
 			"support-02": "$green50",
 			"support-03": "$yellow30",
@@ -88,10 +76,8 @@
 			"inverse-support-03": "$yellow30",
 			"inverse-support-04": "$cyan50",
 			"danger": "$red60",
-			
 			"focus": "$cyan60",
 			"inverse-focus-ui": "$white",
-			
 			"hover-primary": "$cyan70",
 			"hover-primary-text": "$cyan80",
 			"hover-secondary": "$gray80-hover",
@@ -101,23 +87,17 @@
 			"hover-danger": "$red60-hover",
 			"hover-selected-ui": "$gray20-hover",
 			"inverse-hover-ui": "$gray80-hover",
-			
 			"active-primary": "$cyan80",
 			"active-secondary": "$cyan60",
 			"active-tertiary": "$cyan80",
 			"active-ui": "$cyan30",
 			"active-danger": "$red80",
-			
 			"selected-ui": "$gray20",
-			
 			"highlight": "$cyan20",
-			
 			"visited-link": "$purple60",
-			
 			"disabled-01": "$gray10",
 			"disabled-02": "$gray30",
 			"disabled-03": "$gray50",
-			
 			"skeleton-01": "$gray10-hover",
 			"skeleton-02": "$gray30"
 		},
@@ -129,30 +109,24 @@
 			"ui-04": "$gray50",
 			"ui-05": "$gray100",
 			"overlay-01": "$gray100-opacity50",
-			
 			"interactive-01": "$cyan60",
 			"interactive-02": "$gray80",
 			"interactive-03": "$cyan60",
 			"interactive-04": "$cyan60",
-			
 			"text-01": "$gray100",
 			"text-02": "$gray80",
 			"text-03": "$gray40",
 			"text-04": "$white",
 			"text-05": "$gray60",
 			"link-01": "$cyan60",
-			
 			"icon-01": "$gray100",
 			"icon-02": "$gray70",
 			"icon-03": "$white",
-			
 			"field-01": "$white",
 			"field-02": "$gray10",
-			
 			"inverse-01": "$white",
 			"inverse-02": "$gray80",
 			"inverse-03": "$cyan40",
-			
 			"support-01": "$red60",
 			"support-02": "$green50",
 			"support-03": "$yellow30",
@@ -162,10 +136,8 @@
 			"inverse-support-03": "$yellow30",
 			"inverse-support-04": "$cyan50",
 			"danger": "$red60",
-			
 			"focus": "$cyan60",
 			"inverse-focus-ui": "$white",
-			
 			"hover-primary": "$cyan70",
 			"hover-primary-text": "$cyan80",
 			"hover-secondary": "$gray80-hover",
@@ -175,23 +147,17 @@
 			"hover-danger": "$red60-hover",
 			"hover-selected-ui": "$gray20-hover",
 			"inverse-hover-ui": "$gray80-hover",
-			
 			"active-primary": "$cyan80",
 			"active-secondary": "$gray60",
 			"active-tertiary": "$cyan80",
 			"active-ui": "$gray30",
 			"active-danger": "$red80",
-			
 			"selected-ui": "$gray20",
-			
 			"highlight": "$cyan10",
-			
 			"visited-link": "$purple60",
-			
 			"disabled-01": "$white",
 			"disabled-02": "$gray30",
 			"disabled-03": "$gray50",
-			
 			"skeleton-01": "$gray10-hover",
 			"skeleton-02": "$gray30"
 		},
@@ -203,30 +169,24 @@
 			"ui-04": "$gray60",
 			"ui-05": "$gray10",
 			"overlay-01": "$gray100-opacity70",
-			
 			"interactive-01": "$cyan60",
 			"interactive-02": "$gray60",
 			"interactive-03": "$white",
 			"interactive-04": "$cyan50",
-			
 			"text-01": "$gray10",
 			"text-02": "$gray30",
 			"text-03": "$gray60",
 			"text-04": "$white",
 			"text-05": "$gray50",
 			"link-01": "$cyan40",
-			
 			"icon-01": "$gray10",
 			"icon-02": "$gray30",
 			"icon-03": "$white",
-			
 			"field-01": "$gray80",
 			"field-02": "$gray70",
-			
 			"inverse-01": "$gray100",
 			"inverse-02": "$gray10",
 			"inverse-03": "$cyan60",
-			
 			"support-01": "$red50",
 			"support-02": "$green40",
 			"support-03": "$yellow30",
@@ -236,10 +196,8 @@
 			"inverse-support-03": "$yellow30",
 			"inverse-support-04": "$cyan60",
 			"danger": "$red60",
-			
 			"focus": "$white",
 			"inverse-focus-ui": "$cyan60",
-			
 			"hover-primary": "$cyan70",
 			"hover-primary-text": "$cyan80",
 			"hover-secondary": "$gray60-hover",
@@ -249,26 +207,19 @@
 			"hover-danger": "$red60-hover",
 			"hover-selected-ui": "$gray70-hover",
 			"inverse-hover-ui": "$gray10-hover",
-			
 			"active-primary": "$cyan80",
 			"active-secondary": "$gray80",
 			"active-tertiary": "$gray30",
 			"active-ui": "$gray60",
 			"active-danger": "$red80",
-			
 			"selected-ui": "$gray70",
-			
 			"highlight": "$cyan80",
-			
 			"visited-link": "$purple40",
-			
 			"disabled-01": "$gray90",
 			"disabled-02": "$gray80",
 			"disabled-03": "$gray60",
-			
 			"skeleton-01": "none",
 			"skeleton-02": "$gray80"
-
 		},
 		"gray100": {
 			"ui-background": "$gray100",
@@ -278,30 +229,24 @@
 			"ui-04": "$gray60",
 			"ui-05": "$gray10",
 			"overlay-01": "$gray100-opacity70",
-			
 			"interactive-01": "$cyan60",
 			"interactive-02": "$gray60",
 			"interactive-03": "$white",
 			"interactive-04": "$cyan60",
-			
 			"text-01": "$gray10",
 			"text-02": "$gray30",
 			"text-03": "$gray60",
 			"text-04": "$white",
 			"text-05": "$gray50",
 			"link-01": "$cyan50",
-			
 			"icon-01": "$gray10",
 			"icon-02": "$gray30",
 			"icon-03": "$white",
-			
 			"field-01": "$gray90",
 			"field-02": "$gray80",
-			
 			"inverse-01": "$gray100",
 			"inverse-02": "$gray10",
 			"inverse-03": "$cyan60",
-			
 			"support-01": "$red50",
 			"support-02": "$green40",
 			"support-03": "$yellow30",
@@ -311,10 +256,8 @@
 			"inverse-support-03": "$yellow30",
 			"inverse-support-04": "$cyan60",
 			"danger": "$red60",
-			
 			"focus": "$white",
 			"inverse-focus-ui": "$cyan60",
-			
 			"hover-primary": "$cyan70",
 			"hover-primary-text": "$cyan80",
 			"hover-secondary": "$gray60-hover",
@@ -324,26 +267,127 @@
 			"hover-danger": "$red60-hover",
 			"hover-selected-ui": "$gray80-hover",
 			"inverse-hover-ui": "$gray10-hover",
-			
 			"active-primary": "$cyan80",
 			"active-secondary": "$gray80",
 			"active-tertiary": "$gray30",
 			"active-ui": "$gray70",
 			"active-danger": "$red80",
-			
 			"selected-ui": "$gray80",
-			
 			"highlight": "$cyan90",
-			
 			"visited-link": "$purple40",
-			
 			"disabled-01": "$gray90",
 			"disabled-02": "$gray80",
 			"disabled-03": "$gray60",
-			
 			"skeleton-01": "none",
 			"skeleton-02": "$gray80"
-	
+		}
+	},
+	"spacing": {
+		"spacing-01": "0.125rem",
+		"spacing-02": "0.25rem",
+		"spacing-03": "0.5rem",
+		"spacing-04": "0.75rem",
+		"spacing-05": "1rem",
+		"spacing-06": "1.5rem",
+		"spacing-07": "2rem",
+		"spacing-08": "2.5rem",
+		"spacing-09": "3rem"
+	},
+	"layout": {
+		"layout-01": "1rem",
+		"layout-02": "1.5rem",
+		"layout-03": "2rem",
+		"layout-04": "3rem",
+		"layout-05": "4rem",
+		"layout-06": "6rem",
+		"layout-07": "10rem"
+	},
+	"typeSets": {
+		"code-01": {
+			"font-family": "'Roboto Mono', monospace",
+			"font-size": "12px",
+			"line-height": "16px",
+			"font-weight": "400",
+			"letter-spacing": "0.32px"
+		},
+		"code-02": {
+			"font-family": "'Roboto Mono', monospace",
+			"font-size": "14px",
+			"line-height": "20px",
+			"font-weight": "400",
+			"letter-spacing": "0.32px"
+		},
+		"caption-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "12px",
+			"line-height": "16px",
+			"font-weight": "400",
+			"letter-spacing": "0.32px"
+		},
+		"helper-text-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "12px",
+			"line-height": "16px",
+			"font-weight": "400",
+			"font-style": "italic",
+			"letter-spacing": "0.32px"
+		},
+		"body-short-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "14px",
+			"line-height": "18px",
+			"font-weight": "400",
+			"letter-spacing": "0.16px"
+		},
+		"body-long-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "14px",
+			"line-height": "20px",
+			"font-weight": "400",
+			"letter-spacing": "0.16px"
+		},
+		"body-short-02": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "16px",
+			"line-height": "22px",
+			"font-weight": "400"
+		},
+		"body-long-02": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "16px",
+			"line-height": "24px",
+			"font-weight": "400"
+		},
+		"heading-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "14px",
+			"line-height": "18px",
+			"font-weight": "500",
+			"letter-spacing": "0.16px"
+		},
+		"heading-02": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "16px",
+			"line-height": "22px",
+			"font-weight": "500"
+		},
+		"heading-03": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "20px",
+			"line-height": "28px",
+			"font-weight": "500"
+		},
+		"heading-04": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "28px",
+			"line-height": "36px",
+			"font-weight": "400"
+		},
+		"heading-05": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "42px",
+			"line-height": "50px",
+			"font-weight": "400"
 		}
 	}
 }
