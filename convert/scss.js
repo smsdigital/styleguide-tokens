@@ -7,6 +7,7 @@ module.exports = function generate(data, directory) {
 
     let output = createComment();
     output += createGlobals(data);
+    output += createTypeSets(data);
     output += createThemes(data);
 
     writeFileSync(filePath, output);
@@ -18,24 +19,47 @@ function createComment() {
 }
 
 function createGlobals(data) {
-    let globals = `${EOL}// Global variables${EOL}`;
-    for (const key in data.global) {
-        const value = data.global[key];
-        globals += `$${key}: ${value};${EOL}`;
+    let output = '';
+    output += processGlobalEntry('Colors', data.global.colors);
+    output += processGlobalEntry('Spacings', data.global.spacing);
+    output += processGlobalEntry('Layouts', data.global.layout);
+    return output;
+}
+
+function createTypeSets(data) {
+    let output = `${EOL}/* TypeSets */${EOL}`;
+    for (const typeSet in data.typeSets) {
+        output += `@mixin ${typeSet} {${EOL}`;
+        for (const property in data.typeSets[typeSet]) {
+            let value = data.typeSets[typeSet][property];
+            output += `${TAB}${property}: ${value};${EOL}`;
+        }
+        output += `}${EOL}`;
     }
-    return globals;
+    return output;
+    
 }
 
 function createThemes(data) {
-    let themes = `${EOL}$themes: (${EOL}`;
+    let output = `${EOL}/* Themes */`;
+    output += `${EOL}$themes: (${EOL}`;
     for (const theme in data.themes) {
-        themes += `${TAB}"${theme}": (${EOL}`;
+        output += `${TAB}"${theme}": (${EOL}`;
         for (const key in data.themes[theme]) {
             let value = data.themes[theme][key];
-            themes += `${TAB}${TAB}"${key}": ${value},${EOL}`;
+            output += `${TAB}${TAB}"${key}": ${value},${EOL}`;
         }
-        themes += `${TAB}),${EOL}`;
+        output += `${TAB}),${EOL}`;
     }
-    themes += `);${EOL}`;
-    return themes;
+    output += `);${EOL}`;
+    return output;
+}
+
+function processGlobalEntry(name, entry) {
+    let output = `${EOL}/* ${name} */${EOL}`;
+    for (const key in entry) {
+        const value = entry[key];
+        output += `$${key}: ${value};${EOL}`;
+    }
+    return output;
 }
