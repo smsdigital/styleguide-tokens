@@ -96,6 +96,39 @@
 		}
 	},
 	"typeSets": {
+		"body-long-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "14px",
+			"line-height": "20px",
+			"font-weight": "400",
+			"letter-spacing": "0.16px"
+		},
+		"body-long-02": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "16px",
+			"line-height": "24px",
+			"font-weight": "400"
+		},
+		"body-short-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "14px",
+			"line-height": "18px",
+			"font-weight": "400",
+			"letter-spacing": "0.16px"
+		},
+		"body-short-02": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "16px",
+			"line-height": "22px",
+			"font-weight": "400"
+		},
+		"caption-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "12px",
+			"line-height": "16px",
+			"font-weight": "400",
+			"letter-spacing": "0.32px"
+		},
 		"code-01": {
 			"font-family": "'Roboto Mono', monospace",
 			"font-size": "12px",
@@ -109,47 +142,6 @@
 			"line-height": "20px",
 			"font-weight": "400",
 			"letter-spacing": "0.32px"
-		},
-		"caption-01": {
-			"font-family": "'Roboto', sans-serif",
-			"font-size": "12px",
-			"line-height": "16px",
-			"font-weight": "400",
-			"letter-spacing": "0.32px"
-		},
-		"helper-text-01": {
-			"font-family": "'Roboto', sans-serif",
-			"font-size": "12px",
-			"line-height": "16px",
-			"font-weight": "400",
-			"font-style": "italic",
-			"letter-spacing": "0.32px"
-		},
-		"body-short-01": {
-			"font-family": "'Roboto', sans-serif",
-			"font-size": "14px",
-			"line-height": "18px",
-			"font-weight": "400",
-			"letter-spacing": "0.16px"
-		},
-		"body-long-01": {
-			"font-family": "'Roboto', sans-serif",
-			"font-size": "14px",
-			"line-height": "20px",
-			"font-weight": "400",
-			"letter-spacing": "0.16px"
-		},
-		"body-short-02": {
-			"font-family": "'Roboto', sans-serif",
-			"font-size": "16px",
-			"line-height": "22px",
-			"font-weight": "400"
-		},
-		"body-long-02": {
-			"font-family": "'Roboto', sans-serif",
-			"font-size": "16px",
-			"line-height": "24px",
-			"font-weight": "400"
 		},
 		"heading-01": {
 			"font-family": "'Roboto', sans-serif",
@@ -181,6 +173,21 @@
 			"font-size": "42px",
 			"line-height": "50px",
 			"font-weight": "400"
+		},
+		"helper-text-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "12px",
+			"line-height": "16px",
+			"font-weight": "400",
+			"font-style": "italic",
+			"letter-spacing": "0.32px"
+		},
+		"label-01": {
+			"font-family": "'Roboto', sans-serif",
+			"font-size": "12px",
+			"line-height": "16px",
+			"font-weight": "400",
+			"letter-spacing": "0.32px"
 		}
 	},
 	"themes": {
