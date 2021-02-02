@@ -8,6 +8,8 @@ module.exports = function generate(data, directory) {
     let output = createComment();
     output += `:root {${EOL}`;
     output += createGlobals(data);
+    output += EOL;
+    output += createTypeSets(data);
     output += createThemes(data);
     output += `}${EOL}`
 
@@ -24,11 +26,30 @@ function createComment() {
 
 function createGlobals(data) {
     let globals = `${TAB}/* Global variables */${EOL}`;
-    for (const key in data.global) {
-        const value = data.global[key];
-        globals += `${TAB}--${key}: ${value};${EOL}`;
+    for (const section in data.global) {
+        const capitalized = section.substr(0, 1).toUpperCase() + section.substr(1);
+        globals += `${EOL}${TAB}/* ${capitalized} */${EOL}`;
+        for (const entry in data.global[section]) {
+            const value = data.global[section][entry];
+            const key = `${section}-${entry}`;
+            globals += `${TAB}--${key}: ${value};${EOL}`;
+        }
     }
     return globals;
+}
+
+function createTypeSets(data) {
+    let typeSets = `${TAB}/* Typesets variables */${EOL}`;
+    for (const section in data.typeSets) {
+        const capitalized = section.substr(0, 1).toUpperCase() + section.substr(1);
+        typeSets += `${EOL}${TAB}/* ${capitalized} */${EOL}`;
+        for (const entry in data.typeSets[section]) {
+            const value = data.typeSets[section][entry];
+            const key = `${section}-${entry}`;
+            typeSets += `${TAB}--${key}: ${value};${EOL}`;
+        }
+    }
+    return typeSets;
 }
 
 function createThemes(data) {
@@ -38,11 +59,10 @@ function createThemes(data) {
         for (const key in data.themes[theme]) {
             let value = data.themes[theme][key];
             if (value.startsWith('$')) {
-                value = data.global[value.substr(1)];
+                value = data.global.colors[value.substr(1)];
             }
             themes += `${TAB}--theme-${theme}-${key}: ${value};${EOL}`;
         }
-        themes += EOL;
     }
     return themes;
 }

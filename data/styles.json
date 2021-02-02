@@ -33,7 +33,7 @@
 			"gray70": "rgb(82, 82, 82)",
 			"gray70-hover": "rgb(101, 101, 101)",
 			"gray80": "rgb(57, 57, 57)",
-			"gray80-hover": "rgb(76, 76, 76)",
+			"gray80-hover": "rgb(53, 53, 53)",
 			"gray90": "rgb(38, 38, 38)",
 			"gray90-hover": "rgb(53, 53, 53)",
 			"gray100": "rgb(22, 22, 22)",
@@ -406,7 +406,7 @@
 			"disabled-01": "$gray90",
 			"disabled-02": "$gray80",
 			"disabled-03": "$gray60",
-			"skeleton-01": "none",
+			"skeleton-01": "$gray80-hover",
 			"skeleton-02": "$gray80"
 		},
 		"gray100": {
@@ -466,7 +466,7 @@
 			"disabled-01": "$gray90",
 			"disabled-02": "$gray80",
 			"disabled-03": "$gray60",
-			"skeleton-01": "none",
+			"skeleton-01": "$gray80-hover",
 			"skeleton-02": "$gray80"
 		}
 	}
