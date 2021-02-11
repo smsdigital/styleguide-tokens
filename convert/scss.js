@@ -11,7 +11,8 @@ module.exports = function generate(data, directory) {
     output += createThemes(data);
 
     writeFileSync(filePath, output);
-    console.log(`-> SCSS generated (length: ${output.length}): ${filePath}`);
+    const status = output.length === 0 ? '\x1b[31m[-]\x1b[0m' : '\x1b[32m[+]\x1b[0m';
+    console.log(`${status} SCSS generated (length: ${output.length}): ${filePath}`);
 }
 
 function createComment() {

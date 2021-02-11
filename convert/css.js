@@ -14,7 +14,8 @@ module.exports = function generate(data, directory) {
     output += `}${EOL}`
 
     writeFileSync(filePath, output);
-    console.log(`-> CSS generated (length: ${output.length}): ${filePath}`);
+    const status = output.length === 0 ? '\x1b[31m[-]\x1b[0m' : '\x1b[32m[+]\x1b[0m';
+    console.log(`${status} CSS generated (length: ${output.length}): ${filePath}`);
 }
 
 function createComment() {
