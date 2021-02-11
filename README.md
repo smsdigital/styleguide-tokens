@@ -2,11 +2,11 @@
 
 This is an official repository by the CoE-WebDev.
 
-Add this package to your app and use all the provided values for your application.
+Add this package to your project and use all the provided values for your UI.
 
 The values in this repository/package will be continously updated in accordance to the official SMS Digital styleguide.
 
-If your project is already using this package, make sure you stay up to date to new releases/patches.
+Make sure you stay up to date with new releases/patches.
 
 ## Usage:
 ---
@@ -14,15 +14,15 @@ If your project is already using this package, make sure you stay up to date to 
 ```
 npm install <path> --save
 ```
-After the installation has finished, you should see those lines in the terminal (length-value may vary but it should always be way over 0):
+After the installation has finished, you should see those lines in the terminal (length-value may vary but it should always be way bigger than 0):
 
 ```
-SMS Digital: Styleguide-Variables
+    //SMS Digital: Styleguide-Variables\\
 [+] CSS generated (length: 9758): ./styles/variables.css
 [+] SCSS generated (length: 11098): ./styles/variables.scss
 ```
 
-You can check the first time, if everything went correct, by validating your folder-structure in your node_modules looks like this:
+You can verify that everything went correct, by comparing your `node_modules` folder-structure with this:
 ```
 node_modules/
 -- convert
@@ -31,8 +31,8 @@ node_modules/
 -- data
 ---- styles.json
 --styles
----- variables.css ==> That's the most important part
----- variables.scss ==> That's the most important part
+---- variables.css ==> That's the important part
+---- variables.scss ==> That's the important part
 -- build.js
 -- package.json
 -- README.md
@@ -47,4 +47,4 @@ To import all variables to your project you can use this syntax:
 In case you want/need to work with the vaules directly in your code, you can import/read the `data/styles.json`.
 
 ----
-## If you have questions about this repository or you want to contribute, please feel free to contact the CoE-WebDev.
+## If you have questions about this repository or want to contribute, please feel free to contact the CoE-WebDev.
