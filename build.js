@@ -1,5 +1,4 @@
 const { existsSync, mkdirSync, rmdirSync, writeFileSync } = require("fs");
-const { EOL } = require("os");
 const TAB = '\t';
 
 const data = require("./data/styles.json");
