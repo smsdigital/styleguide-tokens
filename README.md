@@ -4,7 +4,7 @@ This is an official repository by the CoE-WebDev.
 
 Add this package to your project and use all the provided values for your UI.
 
-The values in this repository/package will be continously updated in accordance to the official SMS Digital styleguide.
+The values in this repository/package will be continously updated in accordance to the official SMS digital styleguide.
 
 Make sure you stay up to date with new releases/patches.
 
@@ -12,17 +12,17 @@ Make sure you stay up to date with new releases/patches.
 ---
 ### Install package:
 ```
-npm install <path> --save
+npm install styleguide-variables --registry https://npm.fury.io/smsdigitalgmbh --save
 ```
 After the installation has finished, you should see those lines in the terminal (length-value may vary but it should always be way bigger than 0):
 
 ```
-    //SMS Digital: Styleguide-Variables\\
+    // SMS digital: Styleguide-Variables \\
 [+] CSS generated (length: 9758): ./styles/variables.css
 [+] SCSS generated (length: 11098): ./styles/variables.scss
 ```
 
-You can verify that everything went correct, by comparing your `node_modules` folder-structure with this:
+You can verify that everything worked correctly by comparing your `node_modules` folder-structure with this:
 ```
 node_modules/
 -- convert
@@ -44,7 +44,7 @@ To import all variables to your project you can use this syntax:
 ```
 @import 'node_modules/styleguide-variables/styles/variables.scss';
 ```
-In case you want/need to work with the vaules directly in your code, you can import/read the `data/styles.json`.
+In case you want/need to work with the values directly in your code, you can import/read the `data/styles.json`.
 
 ----
 ## If you have questions about this repository or want to contribute, please feel free to contact the CoE-WebDev.

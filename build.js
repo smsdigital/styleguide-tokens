@@ -19,7 +19,7 @@ genScss(data, directory);
 
 function generateLogHeader() {
     const before = '\x1b[1m\x1b[31m/\x1b[34m/';
-    const middleText = '\x1b[37m SMS Digital: Styleguide-Variables ';
+    const middleText = '\x1b[37m SMS digital: Styleguide-Variables ';
     const after = '\x1b[31m\\\x1b[34m\\';
     const reset = '\x1b[0m';
     console.log(`${TAB}${before}${middleText}${after}${reset}`);
