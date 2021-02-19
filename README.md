@@ -47,4 +47,12 @@ To import all variables to your project you can use this syntax:
 In case you want/need to work with the values directly in your code, you can import/read the `data/styles.json`.
 
 ----
+## Changelog
+### [0.1.2] - 2021-02-19
+- Added changelog to this README.md
+- Added *.tgz files to gitignore
+### [0.1.1] - 2021-02-16
+- First package release to gemfury
+----
+
 ## If you have questions about this repository or want to contribute, please feel free to contact the CoE-WebDev.
