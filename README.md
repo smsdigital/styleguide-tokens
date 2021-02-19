@@ -49,11 +49,9 @@ In case you want/need to work with the values directly in your code, you can imp
 ----
 ## Changelog
 ## [0.1.2] - 2021-02-17
-### Internal
 - Added changelog to this README.md
 - Added *.tgz files to gitignore
 ## [0.1.1] - 2021-02-16
-### Internal
 - First package release to gemfury
 ----
 
