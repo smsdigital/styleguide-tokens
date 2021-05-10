@@ -1,0 +1,29 @@
+{
+    "source": ["data/styles.json"],
+    "platforms": {
+        "sms-digital-scss": {
+            "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon"],
+            "buildPath": "data/",
+            "files": [{
+                "destination": "variables.scss",
+                "format": "scss/variables"
+            }]
+        },
+        "sms-digital-css": {
+            "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon"],
+            "buildPath": "data/",
+            "files": [{
+                "destination": "variables.css",
+                "format": "css/variables"
+            }]
+        },
+        "sms-digital-less": {
+            "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon"],
+            "buildPath": "data/",
+            "files": [{
+                "destination": "variables.less",
+                "format": "less/variables"
+            }]
+        }
+    }
+}

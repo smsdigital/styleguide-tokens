@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "If you have questions about this repository, please ask the CoE-WebDev",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "style-dictionary build",
     "postinstall": "node ./build.js"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/smsdigital/styleguide-variables/issues"
   },
-  "homepage": "https://github.com/smsdigital/styleguide-variables#readme"
+  "homepage": "https://github.com/smsdigital/styleguide-variables#readme",
+  "devDependencies": {
+    "style-dictionary": "^2.10.3"
+  }
 }

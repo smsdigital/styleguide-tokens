@@ -1,6 +1,6 @@
 # Styleguide Variables
 
-This is an official repository by the CoE-WebDev.
+This is an official repository by the EO Software Development.
 
 Add this package to your project and use all the provided values for your UI.
 
