@@ -1,25 +1,24 @@
 {
-  "name": "@smsdigital/styleguide-variables",
-  "version": "0.1.2",
+  "name": "@smsdigital/styleguide-tokens",
+  "version": "0.2.0",
   "description": "If you have questions about this repository, please ask the CoE-WebDev",
   "scripts": {
-    "test": "style-dictionary build",
-    "postinstall": "node ./build.js"
+    "prepack": "style-dictionary build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smsdigital/styleguide-variables.git"
+    "url": "git+https://github.com/smsdigital/styleguide-tokens.git"
   },
   "keywords": [
     "styleguide",
-    "variables"
+    "tokens"
   ],
   "author": "SMS digital (Martin Hombach / @mhombach, Marc Dominik Migge / @mdm)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/smsdigital/styleguide-variables/issues"
+    "url": "https://github.com/smsdigital/styleguide-tokens/issues"
   },
-  "homepage": "https://github.com/smsdigital/styleguide-variables#readme",
+  "homepage": "https://github.com/smsdigital/styleguide-tokens#readme",
   "devDependencies": {
     "style-dictionary": "^2.10.3"
   }

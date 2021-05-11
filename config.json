@@ -5,7 +5,7 @@
             "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon"],
             "buildPath": "data/",
             "files": [{
-                "destination": "variables.scss",
+                "destination": "tokens.scss",
                 "format": "scss/variables"
             }]
         },
@@ -13,7 +13,7 @@
             "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon"],
             "buildPath": "data/",
             "files": [{
-                "destination": "variables.css",
+                "destination": "tokens.css",
                 "format": "css/variables"
             }]
         },
@@ -21,7 +21,7 @@
             "transforms": ["attribute/cti", "name/cti/kebab", "time/seconds", "content/icon"],
             "buildPath": "data/",
             "files": [{
-                "destination": "variables.less",
+                "destination": "tokens.less",
                 "format": "less/variables"
             }]
         }
