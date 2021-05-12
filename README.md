@@ -2,52 +2,43 @@
 
 This is an official repository by the EO Software Development.
 
-Add this package to your project and use all the provided values for your UI.
+This package needs to be added to your sms digital project, so it will align with the official company styleguide.
 
-The values in this repository/package will be continously updated in accordance to the official SMS digital styleguide.
+The values in this repository/package will be continously updated in accordance to the official SMS digital styleguide, so make sure you stay up to date with new releases/patches.
 
-Make sure you stay up to date with new releases/patches.
-
-## Usage:
 ---
-### Install package:
+## Install package:
 ```
-npm install styleguide-variables --registry https://npm.fury.io/smsdigitalgmbh --save
-```
-After the installation has finished, you should see those lines in the terminal (length-value may vary but it should always be way bigger than 0):
-
-```
-    // SMS digital: Styleguide-Variables \\
-[+] CSS generated (length: 9758): ./styles/variables.css
-[+] SCSS generated (length: 11098): ./styles/variables.scss
+npm install @smsdigital/styleguide-tokens
 ```
 
-You can verify that everything worked correctly by comparing your `node_modules` folder-structure with this:
-```
-node_modules/
--- convert
----- css.js
----- scss.js
--- data
----- styles.json
---styles
----- variables.css ==> That's the important part
----- variables.scss ==> That's the important part
--- build.js
--- package.json
--- README.md
-```
-
-### Importing
+## Importing
 To import all variables to your project you can use this syntax:
-##### `SCSS` (We might find a better way of importing than from node_modules in the future)
+```js
+// SCSS (consider using '@use' instead of '@import' though)
+@import '@smsdigital/styleguide-tokens/tokens.scss';
+
+// CSS
+@import '@smsdigital/styleguide-tokens/tokens.css';
+
+// LESS
+@import '@smsdigital/styleguide-tokens/tokens.less';
+
+// JSON (in case you need to work with the values directly in your code)
+import tokens from '@smsdigital/styleguide-tokens/tokens.json';
 ```
-@import 'node_modules/styleguide-variables/styles/variables.scss';
-```
-In case you want/need to work with the values directly in your code, you can import/read the `data/styles.json`.
+### Angular
+If you are using Angular (or a framework that follows a similar approach) it might make sense to not import the scss/css in some style-file, but instead to add it as an entry to your `angular.json` into the following property:
+
+`projects/<project-name>/architect/build/options/styles`
 
 ----
 ## Changelog
+### [0.2.0] - 2021-05-12
+- Changed folder-structure
+- Switched to library for converting tokens
+- Switched to using flat structure in tokens instead of maps etc
+- Switched to publishint to npmjs.com
 ### [0.1.2] - 2021-02-19
 - Added changelog to this README.md
 - Added *.tgz files to gitignore
@@ -55,4 +46,4 @@ In case you want/need to work with the values directly in your code, you can imp
 - First package release to gemfury
 ----
 
-## If you have questions about this repository or want to contribute, please feel free to contact the CoE-WebDev.
+## If you have questions about this repository or want to contribute, please feel free to contact the EO Software Development.
