@@ -1,4 +1,4 @@
-# Styleguide Variables
+# Styleguide Tokens
 
 This is an official repository by the EO Software Development.
 
