@@ -13,7 +13,7 @@ npm install @smsdigital/styleguide-tokens
 ```
 
 ## Importing
-To import all variables to your project you can use this syntax:
+To import all tokens to your project you can use this syntax:
 ```js
 // SCSS (consider using '@use' instead of '@import' though)
 @import '@smsdigital/styleguide-tokens/tokens.scss';
